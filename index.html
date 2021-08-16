@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/libs/slick.css">
+    <link rel="stylesheet" href="css/libs/bootstrap-grid.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"> 
+   
+   
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 col-md-12 header-left">
+                         <div class="header-phone">
+                             <p>PHONE: +01 256235</p>
+                        </div>
+                        <div class="header-email">
+                             <p >EMAIL: info@example.com</p>
+                        </div> 
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 header-right">
+                        <p class="header-info">GIFT CARD</p>
+                        <p class="header-info">TRACK ORDER</p>
+                        <p class="header-info">LANGUAGE</p>                   
+                        <div>
+                            <ion-icon name="chevron-down-outline" class="header-icon"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-3 col-md-2 col-sm-6">
+                        <a href="#"><h2 class="header-title">Silon<span>.</span></h2></a>
+                    </div>
+                    <div class="col-xl-7 col-md-8 header-menu" >
+                        <ul class="header-list" >
+                            <li class="header-item">
+                                <a href="#" class="header-link">home</a>
+                                <ul class="header-nav">
+                                    <li><a href="" class="header-link">Home - 1</a></li>
+                                    <li><a href="" class="header-link">Home - 2</a></li>
+                                    <li><a href="" class="header-link">Home - 3</a></li>
+                                    <li><a href="" class="header-link">Home - 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-item">
+                                <a href="#trending" class="header-link">shop</a>
+                                <ul class="header-nav">
+                                    <li><a href="" class="header-link">Shop - 1</a></li>
+                                    <li><a href="" class="header-link">Shop - 2</a></li>
+                                    <li><a href="" class="header-link">Shop - 3</a></li>
+                                    <li><a href="" class="header-link">Shop - 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-item">
+                                <a href="#journal" class="header-link">blog</a>
+                                <ul class="header-nav">
+                                    <li><a href="" class="header-link">Blog - 1</a></li>
+                                    <li><a href="" class="header-link">Blog - 2</a></li>
+                                    <li><a href="" class="header-link">Blog - 3</a></li>
+                                    <li><a href="" class="header-link">Blog - 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-item">
+                                <a href="#trending" class="header-link">products</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#about" class="header-link">about us</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#journal" class="header-link">journal</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6">
+                        <div class="header-detail">
+                            <div class="header-search detail-js">
+                                <ion-icon name="search-outline"></ion-icon>
+                                <div class="header-search-input">
+                                    <form action=""> 
+                                        <input type="text" placeholder="Tìm kiếm..." required="required">
+                                        <ion-icon name="search-outline"></ion-icon>
+                                    </form>
+                                </div>           
+                            </div>
+                            <div class="header-cart detail-js">
+                                
+                                    <ion-icon name="cart-outline"></ion-icon>
+                                    <p class="header-input">
+                                        <span>2</span>
+                                    </p>
+                             
+                                <div class="header-cart-detail">
+                                    <div class="header-cart-top">
+                                        <div class="header-cart-item">
+                                            <a href="" class="header-cart-oimg">
+                                                <img src="images/h2.jpg" alt="" class="header-cart-img">
+                                                
+                                            </a>
+                                            <div class="header-cart-content">
+                                                <div class="header-cart-name">
+                                                    <a href="" class="">
+                                                       Fashion for Women
+                                                    </a>
+                                                    <ion-icon name="close-outline"></ion-icon>  
+                                                </div>          
+                                                <p class="header-cart-size">(Color: Black, Size: L)</p>
+                                                <p class="header-cart-price"><span>1</span> x $245.000</p>
+                                            </div>
+                                        </div>
+                                        <div class="header-cart-item">
+                                            <a href="" class="header-cart-oimg">
+                                                <img src="images/h2.jpg" alt="" class="header-cart-img">
+                                                
+                                            </a>
+                                            <div class="header-cart-content">
+                                                <div class="header-cart-name">
+                                                    <a href="" class="">
+                                                       Fashion for Women
+                                                    </a>
+                                                    <ion-icon name="close-outline"></ion-icon>  
+                                                </div>          
+                                                <p class="header-cart-size">(Color: Black, Size: L)</p>
+                                                <p class="header-cart-price"><span>1</span> x $245.000</p>
+                                            </div>
+                                        </div>
+                                        <div class="header-cart-item">
+                                            <a href="" class="header-cart-oimg">
+                                                <img src="images/h2.jpg" alt="" class="header-cart-img">
+                                                
+                                            </a>
+                                            <div class="header-cart-content">
+                                                <div class="header-cart-name">
+                                                    <a href="" class="">
+                                                       Fashion for Women
+                                                    </a>
+                                                    <ion-icon name="close-outline"></ion-icon>  
+                                                </div>          
+                                                <p class="header-cart-size">(Color: Black, Size: L)</p>
+                                                <p class="header-cart-price"><span>1</span> x $245.000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-cart-bottom">
+                                        <p class="header-cart-subtax">
+                                            <strong>Sub Total</strong>
+                                            <span>$600.000</span>
+                                        </p>
+                                        <p class="header-cart-subtax">
+                                            <strong>Tax</strong>
+                                            <span>$60.000</span>
+                                        </p>
+                                        <p class="header-cart-subtotal">
+                                            <strong>Total</strong>
+                                            <span>$660.000</span>
+                                        </p>
+                                        <div class="header-cart-button">
+                                            <a href="" class="cart-button viewcart-button">View Cart</a>
+                                            <a href="" class="cart-button checkout-button">Checkout</a>
+                                        </div>                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-like">
+                               <a href=""> <ion-icon name="heart-outline"></ion-icon>
+                                <p class="header-input">
+                                    <span>3</span>
+                                </p>
+                            </a>
+                            </div>
+                            <div class="header-bar"> 
+                                <i class="fas fa-bars"></i>                                            
+                            </div>                       
+                            <div class="header-menu-bar">
+                                <div class="header-close">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </div>
+                                <ul class="header-list" >
+                                    <li class="header-item">
+                                        <a href="" class="header-link">home</a>
+                         
+                                    </li>
+                                    <li class="header-item">
+                                        
+                                            <a href="#trending" class="header-link">shop</a>
+                                            <ion-icon data-toggle="header-nav-menu" class="icon-dbar" name="chevron-down-outline"></ion-icon>
+                                            
+                                        
+                                        <ul class="header-nav-menu">
+                                            <li><a href="" class="header-link">Shop - 1</a></li>
+                                            <li><a href="" class="header-link">Shop - 2</a></li>
+                                            <li><a href="" class="header-link">Shop - 3</a></li> 
+                                            <li><a href="" class="header-link">Shop - 4</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item">
+                                        
+                                            <a  href="#journal" class="header-link">Blog</a>
+                                            <ion-icon data-toggle="header-nav-menu" class="icon-dbar dbar-2" name="chevron-down-outline"></ion-icon>
+                                            
+                                       
+                                        <ul class="header-nav-menu">
+                                            <li><a href="" class="header-link">Blog - 1</a></li>
+                                            <li><a href="" class="header-link">Blog - 2</a></li>
+                                            <li><a href="" class="header-link">Blog - 3</a></li>
+                                            <li><a href="" class="header-link">Blog - 4</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="header-item">
+                                        <a href="#product" class="header-link">products</a>
+                                    </li>
+                                    <li class="header-item">
+                                        <a href="#about" class="header-link">about us</a>
+                                    </li>
+                                    <li class="header-item">
+                                        <a href="#journal" class="header-link">journal</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </header>
+
+    <main>
+        <section class="intro">
+              <div class="slick-container">
+                    <div class="slick-item">
+                        <div class="intro-overplay"></div>
+                        <div class="intro-content">
+                            <p class="intro-heading">ultimate collection</p>
+                            <h2 class="intro-title">Complete Women<span>Fashion Here</span> </h2>
+                            <a href="" class="intro-button">shop now</a>
+                        </div>
+                        <img src="./images/slide1.jpg" alt="">                  
+                    </div>
+                    <div class="slick-item">
+                        <div class="intro-overplay"></div>
+                        <div class="intro-content">
+                            <p class="intro-heading">ultimate collection</p>
+                            <h2 class="intro-title">Complete Women<span>Fashion Here</span> </h2>
+                            <a href="" class="intro-button">shop now</a>
+                        </div>
+                        <img src="./images/slide2.jpg" alt="">
+                    </div>
+                    <div class="slick-item">
+                        <div class="intro-overplay"></div>
+                        <div class="intro-content">
+                            <p class="intro-heading">ultimate collection</p>
+                            <h2 class="intro-title">Complete Women<span>Fashion Here</span> </h2>
+                            <a href="" class="intro-button">shop now</a>
+                        </div>
+                        <img src="./images/slide3.jpg" alt="">
+                    </div>
+                    
+                
+            </div>
+            
+        </section>
+
+        <section class="product">
+            <div class="container">
+                <div class="row product-scroll reveal">
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12  product-scroll-card">
+                        <div class="product-card">
+                            <a href="" class="product-oimg product-rp">
+                                <img src="images/h2.jpg" alt="" class="product-img">
+                                <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="product-content">
+                                <a class="product-title">Fashion For Women</a>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <h4 class="product-price">Invaluable</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="product-card">
+                            <a href="" class="product-oimg product-rp">
+                                <img src="images/h4.jpg" alt="" class="product-img">
+                                 <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="product-content">
+                                <a class="product-title">Fashion For Women</a>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <h4 class="product-price">Invaluable</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="product-card">
+                            <a href="" class="product-oimg product-rp">
+                                <img src="images/h5.jpg" alt="" class="product-img">
+                                 <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="product-content">
+                                <a class="product-title">Fashion For Women</a>  
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <h4 class="product-price">Invaluable</h4>
+                            </div>
+                        </div>
+                    </div>             
+                </div>
+            </div>
+        </section>
+
+        <section class="banner ">
+            <div class="container banner-body h-100">
+                <div class="banner-content reveal">
+                    <h2 class="banner-title">50% OFF</h2>
+                    <p class="banner-desc">all women's collection</p>
+                    <a href="" class="intro-button banner-button">shop now</a>
+                </div>          
+            </div>
+        </section>
+
+        <section class="popular ">
+          <div class="container">
+            <div class="popular-top reveal">
+                <h2 class="block">Most Popular</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="product-card">
+                            <a href="" class="popular-oimg product-oimg">
+                                <img src="images/h1.jpg" alt="" class="popular-img product-img">
+                                 <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="product-content">
+                                <a class="product-title">Fashion For Women</a>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <h4 class="product-price">Invaluable</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="product-card">
+                            <a href="" class="popular-oimg product-oimg">
+                                <img src="images/h3.jpg" alt="" class="popular-img product-img">
+                                 <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="product-content">
+                                <a class="product-title">Fashion For Women</a>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <h4 class="product-price">Invaluable</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="product-card">
+                            <a href="" class="popular-oimg product-oimg">
+                                <img src="images/h6.jpg" alt="" class="popular-img product-img">
+                                 <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="product-content">
+                                <a class="product-title">Fashion For Women</a>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <h4 class="product-price">Invaluable</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="product-card">
+                            <a href="" class="popular-oimg product-oimg">
+                                <img src="images/h8.jpg" alt="" class="popular-img product-img">
+                                 <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="product-content">
+                                <a class="product-title">Fashion For Women</a>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <i class="fas fa-star product-icon"></i>
+                                <h4 class="product-price">Invaluable</h4>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="popular-dot">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>  
+
+            <div class="popular-bottom">
+                <div class="container">
+                    <div class="row text-center popular-list reveal">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                            <div class="popular-item" >
+                                <img src="./images/money-bag.png" alt="">
+                                <h3 class="popular-heading">money back gurantee</h3>
+                                <p class="popular-desc">Great Fill Sings Evening</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                            <div class="popular-item">
+                                <img src="./images/delivery-truck.png" alt="">
+                                <h3 class="popular-heading">money back gurantee</h3>
+                                <p class="popular-desc">Great Fill Sings Evening</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 ">
+                            <div class="popular-item">
+                                <img src="./images/headphones.png" alt="">
+                                <h3 class="popular-heading">money back gurantee</h3>
+                                <p class="popular-desc">Great Fill Sings Evening</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 ">
+                            <div class="popular-item">
+                                <img src="./images/bitcoin.png" alt="">
+                                <h3 class="popular-heading">money back gurantee</h3>
+                                <p class="popular-desc">Great Fill Sings Evening</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="trending" class="trending">
+            <div class="container">
+                <div class="trending-top reveal">
+                    <h2 class="block">Trending Popular</h2>
+                    <div class="row trending-product">
+                        <div class="col-lg-3 col-md-6 col-sm-6 product-item  trending-item">
+                            <div class="product-card">
+                                <a href="" class="popular-oimg product-oimg trending-oimg">
+                                    <img src="images/h1.jpg" alt="" class="popular-img product-img">
+                                    <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                                </a>
+                                <div class="product-content">
+                                    <a class="product-title">Fashion For Women</a>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <h4 class="product-price">Invaluable</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 product-item trending-item">
+                            <div class="product-card">
+                                <a href="" class="popular-oimg product-oimg trending-oimg">
+                                    <img src="images/h2.jpg" alt="" class="popular-img product-img">
+                                    <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                                </a>
+                                <div class="product-content">
+                                    <a class="product-title">Fashion For Women</a>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <h4 class="product-price">Invaluable</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 product-item trending-item">
+                            <div class="product-card">
+                                <a href="" class="popular-oimg product-oimg trending-oimg">
+                                    <img src="images/h3.jpg" alt="" class="popular-img product-img">
+                                    <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                                </a>
+                                <div class="product-content">
+                                    <a class="product-title">Fashion For Women</a>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <h4 class="product-price">Invaluable</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 product-item trending-item">
+                            <div class="product-card">
+                                <a href="" class="popular-oimg product-oimg trending-oimg">
+                                    <img src="images/h4.jpg" alt="" class="popular-img product-img">
+                                    <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                                </a>
+                                <div class="product-content">
+                                    <a class="product-title">Fashion For Women</a>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <h4 class="product-price">Invaluable</h4>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+                <div class="trending-bottom ">
+                    <div class="row trending-product reveal">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 trending-item">
+                            <div class="product-card">
+                                <a href="" class="popular-oimg product-oimg trending-oimg">
+                                    <img src="images/h5.jpg" alt="" class="popular-img product-img">
+                                    <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                                </a>
+                                <div class="product-content">
+                                    <a class="product-title">Fashion For Women</a>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <h4 class="product-price">Invaluable</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 trending-item">
+                            <div class="product-card">
+                                <a href="" class="popular-oimg product-oimg trending-oimg ">
+                                    <img src="images/h6.jpg" alt="" class="popular-img product-img">
+                                    <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                                </a>
+                                <div class="product-content">
+                                    <a class="product-title">Fashion For Women</a>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <h4 class="product-price">Invaluable</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 trending-item">
+                            <div class="product-card">
+                                <a href="" class="popular-oimg product-oimg trending-oimg">
+                                    <img src="images/h7.jpg" alt="" class="popular-img product-img">
+                                    <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                                </a>
+                                <div class="product-content">
+                                    <a class="product-title">Fashion For Women</a>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <h4 class="product-price">Invaluable</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 trending-item">
+                            <div class="product-card">
+                                <a href="" class="popular-oimg product-oimg trending-oimg">
+                                    <img src="images/h8.jpg" alt="" class="popular-img product-img">
+                                    <ul class="action">
+                                    <li>
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                        <span>View Details</span>
+                                    </li>   
+                                    <li>
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        <span>Add to Wishlist</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        <span>Add to Cart</span>
+                                    </li>
+                                </ul>
+                                </a>
+                                <div class="product-content">
+                                    <a class="product-title">Fashion For Women</a>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <i class="fas fa-star product-icon"></i>
+                                    <h4 class="product-price">Invaluable</h4>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="journal" class="journal reveal">
+            <div class="container">
+                <h2 class="block">silon journal</h2>
+                <div class="journal-cards">
+                    <div class="journal-card">
+                        <a href="" class="journal-oimg">
+                            <img src="./images/j1.jpg" alt="" class="journal-img">
+                            <p class="journal-tag"></p>
+                        </a>
+                        <div class="journal-content">
+                            <div class="journal-top">
+                                <p class="journal-date">07 July,2019</p>
+                                <a class="journal-title">Were divided land his creature which have evening subdue</a>
+                            </div>
+                            <div class="journal-bottom">
+                                <div class="journal-desc">
+                                    <ion-icon name="cube-outline"></ion-icon>
+                                    <span class="journal-info">Women Fashion</span>
+                                </div>
+                                <div class="journal-desc">
+                                    <ion-icon name="chatbox-outline"></ion-icon>
+                                    <span class="journal-info">2 Comments</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="journal-card">
+                        <a href="" class="journal-oimg">
+                            <img src="./images/j2.jpg" alt="" class="journal-img">
+                            <p class="journal-tag"></p>
+                        </a>
+                        <div class="journal-content">
+                            <div class="journal-top">
+                                <p class="journal-date">07 July,2019</p>
+                                <a class="journal-title">Were divided land his creature which have evening subdue</a>
+                            </div>
+                            <div class="journal-bottom">
+                                <div class="journal-desc">
+                                    <ion-icon name="cube-outline"></ion-icon>
+                                    <span class="journal-info">Women Fashion</span>
+                                </div>
+                                <div class="journal-desc">
+                                    <ion-icon name="chatbox-outline"></ion-icon>
+                                    <span class="journal-info">2 Comments</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="journal-card">
+                        <a href="" class="journal-oimg">
+                            <img src="./images/j3.jpg" alt="" class="journal-img">
+                            <p class="journal-tag"></p>
+                        </a>
+                        <div class="journal-content">
+                            <div class="journal-top">
+                                <p class="journal-date">07 July,2019</p>
+                                <a class="journal-title">Were divided land his creature which have evening subdue</a>
+                            </div>
+                            <div class="journal-bottom">
+                                <div class="journal-desc">
+                                    <ion-icon name="cube-outline"></ion-icon>
+                                    <span class="journal-info">Women Fashion</span>
+                                </div>
+                                <div class="journal-desc">
+                                    <ion-icon name="chatbox-outline"></ion-icon>
+                                    <span class="journal-info">2 Comments</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+        </section>
+
+        <section id="about" class="about reveal">
+            <div class="container">
+                <h2 class="block">about us</h2>
+                <div class="about-content">
+                  <img src="./images/h6.jpg" alt="" class="about-img">
+                  <p class="about-career">Banh He - Founder | CEO of Silon</p>
+                  <p class="about-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla labore necessitatibus tenetur nostrum sint provident fuga culpa delectus at reprehenderit vel, ipsum odio similique temporibus, quidem explicabo illo. Cumque, doloribus?</p>
+                  <svg width="67" height="54" class="about-svg" viewBox="0 0 67 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30.2096 38.5591C30.2096 47.5825 23.9128 53.4943 15.4658 53.4943C6.86521 53.4943 0.568359 47.4269 0.568359 38.5591C0.568359 34.5142 1.18269 31.5583 4.71506 23.0016L13.6228 0.598877H28.8274L22.0698 25.3353C27.138 27.5133 30.2096 32.1806 30.2096 38.5591V38.5591ZM66.4549 38.5591C66.4549 47.5825 60.158 53.4943 51.7111 53.4943C43.1105 53.4943 36.8136 47.4269 36.8136 38.5591C36.8136 34.5142 37.428 31.5583 40.9603 23.0016L49.8681 0.598877H65.0727L58.3151 25.3353C63.3833 27.5133 66.4549 32.1806 66.4549 38.5591V38.5591Z" stroke="#646464" stroke-miterlimit="10"></path>
+                  </svg>
+                  <svg width="67" height="54" class="about-svg2" viewBox="0 0 67 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30.2096 38.5591C30.2096 47.5825 23.9128 53.4943 15.4658 53.4943C6.86521 53.4943 0.568359 47.4269 0.568359 38.5591C0.568359 34.5142 1.18269 31.5583 4.71506 23.0016L13.6228 0.598877H28.8274L22.0698 25.3353C27.138 27.5133 30.2096 32.1806 30.2096 38.5591V38.5591ZM66.4549 38.5591C66.4549 47.5825 60.158 53.4943 51.7111 53.4943C43.1105 53.4943 36.8136 47.4269 36.8136 38.5591C36.8136 34.5142 37.428 31.5583 40.9603 23.0016L49.8681 0.598877H65.0727L58.3151 25.3353C63.3833 27.5133 66.4549 32.1806 66.4549 38.5591V38.5591Z" stroke="#646464" stroke-miterlimit="10"></path>
+                  </svg>
+                </div>
+            </div>
+        </section>       
+    </main>
+
+    <footer> 
+        <section class="footer reveal">
+            <div class="footer-container">
+                <div class="footer-top">
+                    <div class="footer-left">
+                        <div class="footer-column">
+                            <h3 class="footer-title">about us</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item"><a href="" class="footer-link">Who are you</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Work with us</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Become a supplier</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Investor relations</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Ours devices</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Affilate program</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3 class="footer-title">useful links</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item"><a href="" class="footer-link">Who are you</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Work with us</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Become a supplier</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Investor relations</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Ours devices</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Affilate program</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3 class="footer-title">online shopping</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item"><a href="" class="footer-link">Who are you</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Work with us</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Become a supplier</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Investor relations</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Ours devices</a></li>
+                                <li class="footer-item"><a href="" class="footer-link">Affilate program</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column footer-right">
+                            
+                             <div class="footer-app">
+                                 <h3 class="footer-title">experience app on mobile</h3>
+                                 <div class="footer-app-mobile">
+                                     <a href="#" class="footer-app-item">
+                                        <i class="fab fa-android icon"></i>
+                                         <div class="footer-content">
+                                             <p class="footer-desc">GET IT ON</p>
+                                             <h4 class="footer-heading">GOOGLEPLAY</h4>
+                                         </div>
+                                     </a>
+                                     <a href="#" class="footer-app-item">
+                                        <i class="fab fa-apple icon"></i>
+                                        <div class="footer-content">
+                                             <p class="footer-desc">GET IT ON</p>
+                                             <h4 class="footer-heading">APPSTORE</h4>
+                                        </div>
+                                     </a> 
+                                 </div>
+                             </div>
+                             <div class="footer-social">
+                                 <h3 class="footer-title title">follow us</h3>
+                                 <div class="footer-social-list">
+                                     <a href="" class="footer-social-item"><i class="fab fa-facebook-f"></i></a>
+                                     <a href="" class="footer-social-item"><i class="fab fa-twitter"></i></a>
+                                     <a href="" class="footer-social-item"><i class="fab fa-pinterest-p"></i></a>
+                                     <a href="" class="footer-social-item"><i class="fab fa-instagram"></i></a>
+                                 </div>
+                             </div>
+                            
+                         </div>
+                    </div>
+                   
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-copy">Copyright @ 2021 <span>themeles.com</span>. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="backtop">
+                <ion-icon name="chevron-up-outline"></ion-icon>
+            </div>
+        </section>
+        
+    </footer>
+
+    
+    <script src="js/libs/_jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/libs/slick.min.js"></script>
+    <script src="./js/libs/main.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

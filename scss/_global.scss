@@ -1,0 +1,210 @@
+
+
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+main{
+    overflow: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+    -ms-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.block{
+    margin-bottom: 90px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product-oimg:hover > .action li{
+    opacity: 1;
+    transform: translateY(0);
+    
+}
+
+.action > li:nth-child(2){
+   transition-delay: 0.15s;
+}
+
+.action > li:nth-child(3){
+   transition-delay: 0.3s;
+}
+
+.action{
+   @include abs(x);
+   width: 100%;
+   bottom: 60px;
+   z-index: 22;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   li{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       position: relative; 
+       width: 50px;
+       height: 50px;
+       background-color: #fff;
+       color: #000;
+       border-radius: 100rem;
+       opacity: 0;
+       transform: translateY(60px);
+       transition: all 0.3s ease-in-out;
+   }
+   li span{
+       position: absolute;
+       top: -60%;
+       color: #000;
+       padding: 4px 6px;
+       white-space: nowrap;
+       background-color: #fff;
+       font-size: 12px;
+       opacity: 0;
+       transform: translateY(-50%);
+       transition: all 0.3s ease-in-out;
+       pointer-events: none;
+   }
+
+   li span::before{
+       content: "";
+       position: absolute;
+       left: 46%;
+       bottom: 0;
+       top: 75%;
+       background-color: #fff;
+       width: 8px;
+       height: 8px;
+       z-index: 12;
+       transform: rotate(45deg);
+   }
+
+   li:nth-child(2){
+       margin: 0 10px;      
+   }
+   li:hover{
+       background-color: $orange-red;
+       color: #fff;
+       transition: all 0.3s ease-in-out;
+       ion-icon{
+            color: #fff;
+       }
+       span{
+           opacity: 1;
+           transform: translateY(0);
+       }
+   }
+}
+
+ion-icon,a,i{
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+.trending-item{
+    flex-basis: 50%;
+}
+.popular {
+    .action{
+        bottom: 30px;
+        li{
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+.trending {
+    .action{
+        bottom: 30px;
+        li{
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+.backtop{
+    width: 45px;
+    height: 45px;
+    border-radius: 100rem;
+    background-color: $orange-red;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 99;
+    ion-icon{
+        font-size: 25px;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .block{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .trending-oimg{
+        height: 280px!important;
+        .action{
+            display: none;
+        }
+        
+    }
+    .trending-product{
+        .product-title{
+            font-size: 12px;
+            margin-bottom: 6px;
+        }
+        .product-content{
+            padding-top: 15px;
+        }
+        .product-icon{
+            font-size: 10px;
+        }
+        .product-price{
+            margin-top: 6px;
+        }
+    }
+
+    .backtop{
+        width: 45px;
+        height: 45px;
+       
+        bottom: 40px;
+        right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 99;
+        ion-icon{
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+}
+.slick-arrow{
+    display: none!important;
+}
+
+
+//animation
+
+.reveal.active{
+    animation: bottotop 1s ease-in-out;
+}
+
