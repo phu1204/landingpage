@@ -541,6 +541,10 @@ ion-icon, a, i {
     display: inline;
     line-height: 1;
   }
+  .header-menu-bar .header-list .header-item:nth-child(2),
+.header-menu-bar .header-list .header-item:nth-child(3) {
+    margin-top: 23px !important;
+  }
   .header-menu-bar .header-item {
     display: block;
     height: fit-content;

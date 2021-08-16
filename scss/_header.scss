@@ -397,6 +397,12 @@
                     display: inline;
                     line-height: 1;
                 }
+                .header-item:nth-child(2),
+                .header-item:nth-child(3)
+                {
+                    margin-top: 23px!important;
+                }
+                
             }
             .header-item{
                 display: block;
@@ -422,6 +428,7 @@
                         text-transform: uppercase;
                         
                     }
+                   
                     
                 }
                 .header-nav-menu{              
@@ -430,10 +437,12 @@
                     overflow: hidden;
                     transition: 0.3s ease-in-out;                
                     .header-link{
-                        margin-top: 20px;
-                        
-                    }                   
+                        margin-top: 20px;                     
+                    }
+                    
+                                  
                 }
+                
                 
                 
             }
