@@ -564,7 +564,6 @@ ion-icon, a, i {
     text-transform: uppercase;
   }
   .header-menu-bar .header-item .header-nav-menu {
-    margin-bottom: 20px;
     margin-left: 30px;
     max-height: 0px;
     overflow: hidden;
