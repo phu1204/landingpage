@@ -11,8 +11,10 @@ main{
 
 html{
     scroll-behavior: smooth;
-    -ms-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
+    -webkit-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -o-scroll-behavior: smooth; 
 }
 
 .block{
