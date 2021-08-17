@@ -664,11 +664,6 @@ ion-icon, a, i {
   z-index: 99;
   width: 100%;
 }
-.intro .slick-container {
-  overflow: hidden;
-  display: flex;
-  -webkit-box-flex: flex;
-}
 .intro .slick-item {
   width: 100%;
   height: 900px;
