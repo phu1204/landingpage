@@ -523,8 +523,15 @@ ion-icon, a, i {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.9);
     z-index: 999;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
     transform: translateY(-100%);
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     opacity: 0;
   }
   .header-menu-bar.active {
